@@ -1,0 +1,10 @@
+Gadgets information
+============================================================
+0x0000000000400108 : add byte ptr [rax], al ; ret
+0x0000000000400104 : add esp, 0x128 ; ret
+0x0000000000400103 : add rsp, 0x128 ; ret
+0x000000000040010a : ret
+0x0000000000400106 : sub byte ptr [rcx], al ; add byte ptr [rax], al ; ret
+0x0000000000400101 : syscall ; add rsp, 0x128 ; ret
+
+Unique gadgets found: 6

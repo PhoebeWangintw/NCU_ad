@@ -2,4 +2,5 @@ pre_practice/**
 socket_test/**
 ntu/**
 .gdb_history
+core
 peda-session*
