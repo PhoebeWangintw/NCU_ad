@@ -1,4 +1,5 @@
-./pre_practice
-./socket_test
-./ntu
+pre_practice/**
+socket_test/**
+ntu/**
+.gdb_history
 peda-session*
